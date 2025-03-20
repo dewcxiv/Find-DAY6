@@ -33,9 +33,9 @@ def compare(u_score, c_score):
     elif c_score > 21:
         return "Opponent went over, You win ❤️"
     elif u_score > c_score:
-        return "You win "
+        return "You win 🥳"
     else:
-        return "You lose"
+        return "You lose 🤕"
 
 def play_game():
     print(logo)
